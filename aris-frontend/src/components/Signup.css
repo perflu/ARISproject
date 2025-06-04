@@ -1,0 +1,85 @@
+.signup-container {
+ display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  /* background: #fff; */
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.signup-box {
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  /* background: #fff; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+.signup-logo {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.user{
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.id-input {
+  display: flex;
+  gap: 8px;
+}
+.id-input input{
+    flex: 1;
+}
+
+.birth-gender {
+  display: flex;
+  gap: 8px;
+}
+.birth-gender input{
+    flex: 1;
+}
+
+.terms-header{
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.terms-section {
+  margin-top: 20px;
+  font-size: 14px;
+  background: rgb(143, 143, 143);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 12px;
+  font-weight: bold;
+  background: #7268e9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
