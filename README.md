@@ -1,4 +1,4 @@
-## project memo
+# project memo
 
 - aris-frontend: 로그인, 회원가입
 
