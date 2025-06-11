@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  background-color: #18191A;
+}
+
+
+.app {
+  background-color: #18191A;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #242526;
+  border-radius: 12px;
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  margin-bottom: 30px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #bbb;
+}
+
+
+.search {
+  width: 200px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 9999px;
+  background: #3A3B3C;
+  color: #ccc;
+  outline: none;
+}
+
+.search::placeholder {
+  color: #999;
+}
+
+
+.nav-links {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.sign-in {
+  background: #fff;
+  color: #18191A;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.genre-grid {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px 16px;
+  margin-bottom: 40px;
+}
+
+.genre-card {
+  background: #393A3B;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.genre-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.genre-image {
+  width: 100%;
+  height: 100px;
+  background-color: #4F4F4F;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genre-image img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.genre-label {
+  width: 100%;
+  background: #3A3B3C;
+  border-radius: 0 0 8px 8px;
+  margin-top: 8px;
+  padding: 6px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  color: #aaa;
+  font-size: 13px;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-copy {
+  font-size: 12px;
+}
