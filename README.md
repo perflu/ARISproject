@@ -8,3 +8,4 @@
 
 - aiChat: 채팅 앱 (GPT 임시 생성)
 
+- ARIS_main: 메인 페이지!
