@@ -1,6 +1,6 @@
 # Project Memo
 - test-project: 카테고리 분류
-- aiChat: 채팅 앱 (GPT 임시 생성)
+- aiChat: 채팅 앱
 
 ***ARIS_project 현재 진행중인 전체 페이지 통합버전***
 
