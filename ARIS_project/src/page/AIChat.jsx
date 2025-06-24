@@ -1,6 +1,6 @@
 import React from 'react';
 import './AIChat.css';
-import Header from './Header';
+import Header from '../components/Header';
 import { FaAtom } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 
