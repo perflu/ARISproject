@@ -15,6 +15,9 @@ const Header = () => {
   const goToMyPage=()=>{
     navigate("/MyPage");
   };
+  const goToAIChat = () => {
+    navigate("/AIChat");
+  };
 
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -44,7 +47,7 @@ const Header = () => {
           <input type="text" placeholder="Search" />
         </div>
         <nav className="header-nav">
-          <Link to="/AIChat">AI</Link>
+          <a href="#" onClick={goToAIChat}>AI</a>
           <a href="#">Genres</a>
           <a href="#" onClick={goToMyPage}>Authors</a>
           <a href="#">Forum</a>
