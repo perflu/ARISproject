@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 import { FaAtom, FaGlobe } from 'react-icons/fa'; // 아이콘 import 누락 주의
 import {useNavigate} from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   const navigate = useNavigate();
   const goToLogin=()=>{
@@ -42,7 +44,7 @@ const Header = () => {
           <input type="text" placeholder="Search" />
         </div>
         <nav className="header-nav">
-          <a href="#">AI</a>
+          <Link to="/AIChat">AI</Link>
           <a href="#">Genres</a>
           <a href="#" onClick={goToMyPage}>Authors</a>
           <a href="#">Forum</a>
