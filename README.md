@@ -9,3 +9,5 @@
 - aiChat: 채팅 앱 (GPT 임시 생성)
 
 - ARIS_main: 메인 페이지!
+
+***ARIS_project 현재 진행중인 전체 페이지 통합버전***
