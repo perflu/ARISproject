@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 import { FaAtom, FaGlobe } from 'react-icons/fa'; // 아이콘 import 누락 주의
 import {useNavigate} from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   const navigate = useNavigate();
   const goToLogin=()=>{
@@ -13,12 +15,17 @@ const Header = () => {
   const goToMyPage=()=>{
     navigate("/MyPage");
   };
+
   const goToGenre=()=>{
     navigate("/genre")
   };
   const goToAbout=()=>{
     navigate("/About")
   };
+  const goToAIChat = () => {
+    navigate("/AIChat")
+  };
+  
 
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -48,8 +55,13 @@ const Header = () => {
           <input type="text" placeholder="Search" />
         </div>
         <nav className="header-nav">
+
           <a href="#">AI</a>
           <a href="#" onClick={goToGenre}>Genre</a>
+
+          <a href="#" onClick={goToAIChat}>AI</a>
+          <a href="#">Genres</a>
+
           <a href="#" onClick={goToMyPage}>Authors</a>
           <a href="#">Forum</a>
           <a href="#" onClick={goToAbout}>About</a>
