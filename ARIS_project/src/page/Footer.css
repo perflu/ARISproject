@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  color: #aaa;
+  font-size: 13px;
+  margin-top: auto;
+  padding: 20px 250px 20px 170px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-copy {
+  font-size: 12px;
+}

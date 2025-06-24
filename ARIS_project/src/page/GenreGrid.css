@@ -1,0 +1,9 @@
+.genre-grid {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #2D1B32;
+  gap: 20px 16px;
+  margin: 30px 0 40px 160px;
+}

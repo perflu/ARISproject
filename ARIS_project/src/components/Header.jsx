@@ -13,6 +13,12 @@ const Header = () => {
   const goToMyPage=()=>{
     navigate("/MyPage");
   };
+  const goToGenre=()=>{
+    navigate("/genre")
+  };
+  const goToAbout=()=>{
+    navigate("/About")
+  };
 
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -43,10 +49,10 @@ const Header = () => {
         </div>
         <nav className="header-nav">
           <a href="#">AI</a>
-          <a href="#">Genres</a>
+          <a href="#" onClick={goToGenre}>Genre</a>
           <a href="#" onClick={goToMyPage}>Authors</a>
           <a href="#">Forum</a>
-          <a href="#" >About</a>
+          <a href="#" onClick={goToAbout}>About</a>
           <button onClick={goToLogin}>Sign In</button>
           <FaGlobe />
         </nav>
