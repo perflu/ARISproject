@@ -1,0 +1,159 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding: 100px;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  align-items: flex-start; /* 사이드바와 콘텐츠 정렬 일치 */
+}
+
+.sidebar {
+  width: 300px;
+  background: #1a102b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sidebar-section h3 {
+  font-size: 20px;
+  color: #e9d5ff;
+  margin-bottom: 8px;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-section li {
+  font-size: 13px;
+  color: #c084fc;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.sidebar-section li:hover {
+  color: #f0abfc;
+}
+
+.content-area {
+  flex: 1;
+  padding: 0 20px 20px 20px; /* 상단 padding 제거 */
+}
+
+.profile-card {
+  background: linear-gradient(to right, #7700e6, #490981);
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  background: white;
+  color: #9333ea;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  background: #f0abfc;
+  color: #4c1d95;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.profile-stats {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  flex: 1;
+}
+
+.stat-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  background: #2e1065;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  text-align: center;
+  color: white;
+}
+
+.summary-card h4 {
+  font-size: 14px;
+  color: #e9d5ff;
+  margin-bottom: 5px;
+}
+
+.summary-card p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f5d0fe;
+}
+
+.library-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.library-box {
+  background: #1f1334;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 300px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  color: #e0e0ff;
+}
+
+.library-box button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #c084fc;
+  background: none;
+  color: #c084fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #2a0e49;
+  padding: 30px;
+  text-align: center;
+  color: #d1c4e9;
+  font-size: 13px;
+}
